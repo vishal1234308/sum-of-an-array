@@ -1,6 +1,10 @@
 # sum-of-an-array
 
 
+import jaav.util.*;
+import java.util.Scanner;
+class Main{
+    public void main(String []args){
 Scanner sc = new Scanner(System.in);
 		int i,l;
 		System.out.println("Enter a Number or String to be reversed: ");
@@ -25,7 +29,8 @@ Scanner sc = new Scanner(System.in);
 		}
 		System.out.println();
 		sc.close();
-
+}
+}
 
 
 
